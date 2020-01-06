@@ -1,0 +1,2 @@
+# Hefftor Calamares configuration
+

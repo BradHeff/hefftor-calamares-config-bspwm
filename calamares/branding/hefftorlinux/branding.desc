@@ -65,8 +65,8 @@ strings:
     shortProductName:    ArcoLinux
     version:             2.0
     shortVersion:        2.0
-    versionedName:       ArcoLinux
-    shortVersionedName:  ArcoLinux
+    versionedName:       Hefftor Edition
+    shortVersionedName:  Hefftor Edition
     bootloaderEntryName: HefftorLinux
 #    productUrl:          https://ArcoLinux.info/
 #    supportUrl:          https://ArcoLinuxforum.com/

@@ -66,13 +66,27 @@
   selected: false
   packages:
     - amd-ucode
-- name: "Libre Office Still"
-  description: "Installs libre office still - stable branch - conflicts with fresh"
+- name: "Development"
+  description: "Development"
   critical: false
   hidden: false
   selected: false
   packages:
-    - libreoffice-still
+    - atom
+    - code
+    - geany
+    - geany-plugins
+    - kdevelop
+- name: "Internet"
+  description: "Internet"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - firefox
+    - chromium
+    - filezilla
+    - vivaldi
 - name: "Libre Office Fresh"
   description: "Installs libre office fresh - feature branch - conflicts with still"
   critical: false
@@ -80,6 +94,17 @@
   selected: false
   packages:
     - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+    - hunspell-$LOCALE
+- name: "Libre Office Still"
+  description: "Installs libre office still - stable branch - conflicts with fresh"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - libreoffice-still
+    - libreoffice-still-$LOCALE
+    - hunspell-$LOCALE
 - name: "WPS Office"
   description: "Installs wps office"
   critical: false

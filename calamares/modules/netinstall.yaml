@@ -83,6 +83,10 @@
   hidden: false
   selected: false
   packages:
+    - dropbox
+    - evolution
+    - qbittorrent
+    - telegram-desktop
     - firefox
     - chromium
     - filezilla

@@ -77,8 +77,8 @@
     - geany
     - geany-plugins
     - kdevelop
-- name: "Internet"
-  description: "Internet"
+- name: "Internet Apps"
+  description: "Internet Based Apps"
   critical: false
   hidden: false
   selected: false
@@ -86,10 +86,17 @@
     - dropbox
     - evolution
     - qbittorrent
+    - discord
     - telegram-desktop
+    - filezilla
+- name: "Browsers"
+  description: "Web Browsers"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
     - firefox
     - chromium
-    - filezilla
     - vivaldi
 - name: "Libre Office Fresh"
   description: "Installs libre office fresh - feature branch - conflicts with still"

@@ -1,0 +1,27 @@
+- name: "Utilities"
+  description: "Utility software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - albert
+    - archey3
+    - bleachbit
+    - google-earth-pro
+    - gufw
+    - hddtemp
+    - kbackup
+    - open-vm-tools
+    - optimus-manager
+    - octopi
+    - putty
+    - sigil
+    - simple-scan
+    - screenfetch
+    - synapse
+    - sysprof
+    - systemd-manager
+    - timeshift
+    - vnstat
+    - wireshark-qt

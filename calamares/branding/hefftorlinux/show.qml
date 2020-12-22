@@ -47,86 +47,16 @@ Presentation
 			      anchors.centerIn: parent
         }
 
-        Image {
-            id: icon1
-            source: "images/logo.png"
-            fillMode: Image.PreserveAspectFit
-            anchors.right: parent.right
-            anchors.bottom: parent.bottom
-            anchors.rightMargin: 14
-            anchors.bottomMargin: 10
-        }
-
-        Text {
-            id: title1
-            font.pointSize: 16
-            anchors.top: parent.top
-            anchors.left: parent.left
-            anchors.topMargin: 8
-            anchors.leftMargin: 18
-            width: parent.width-10
-            wrapMode: Text.WordWrap
-            font.weight: Font.DemiBold
-            text: "Welcome to HefftorLinux!"
-        }
-
-        Text {
-            id: description1
-            font.pointSize: 14
-            anchors.top: parent.top
-            anchors.left: parent.left
-            anchors.topMargin: 46
-            anchors.leftMargin: 18
-            width: parent.width-10
-            wrapMode: Text.WordWrap
-            text: "<p>Thank you for choosing HefftorLinux. You've made the right choice!</p>"
-        }
-
     }
 
     Slide {
 
         Image {
             id: background2
-            source: "calamares-1.png"
+            source: "calamares-2.png"
             width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
                   anchors.centerIn: parent
-        }
-
-        Image {
-            id: icon2
-            source: "images/logo.png"
-            fillMode: Image.PreserveAspectFit
-            anchors.right: parent.right
-            anchors.bottom: parent.bottom
-            anchors.rightMargin: 14
-            anchors.bottomMargin: 10
-        }
-
-        Text {
-            id: title2
-            font.pointSize: 16
-            anchors.top: parent.top
-            anchors.left: parent.left
-            anchors.topMargin: 8
-            anchors.leftMargin: 18
-            width: parent.width-10
-            wrapMode: Text.WordWrap
-            font.weight: Font.DemiBold
-            text: "HINT!"
-        }
-
-        Text {
-            id: description2
-            font.pointSize: 14
-            anchors.top: parent.top
-            anchors.left: parent.left
-            anchors.topMargin: 46
-            anchors.leftMargin: 18
-            width: parent.width-10
-            wrapMode: Text.WordWrap
-            text: "<p>Installing on a NVME is supported only with ext4 file system</p>"
         }
 
     }

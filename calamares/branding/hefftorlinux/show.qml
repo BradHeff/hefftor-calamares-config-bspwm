@@ -42,7 +42,7 @@ Presentation
         Image {
             id: background1
             source: "calamares-1.png"
-            width: 800; height: 350
+            width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
 			      anchors.centerIn: parent
         }
@@ -89,7 +89,7 @@ Presentation
         Image {
             id: background2
             source: "calamares-1.png"
-            width: 800; height: 350
+            width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
                   anchors.centerIn: parent
         }

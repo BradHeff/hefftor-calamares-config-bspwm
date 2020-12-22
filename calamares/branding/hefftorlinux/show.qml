@@ -47,7 +47,7 @@ Presentation
 			      anchors.centerIn: parent
         }
         Image {
-            id: icon
+            id: icon1
             source: "images/logo.png"
             fillMode: Image.PreserveAspectFit
             anchors.right: parent.right
@@ -56,7 +56,7 @@ Presentation
             anchors.bottomMargin: 10
         }
         Text {
-            id: title
+            id: title1
             font.pointSize: 16
             anchors.top: parent.top
             anchors.left: parent.left
@@ -69,7 +69,7 @@ Presentation
         }
 
         Text {
-            id: description
+            id: description1
             font.pointSize: 14
             anchors.top: parent.top
             anchors.left: parent.left
@@ -84,14 +84,14 @@ Presentation
     Slide {
 
         Image {
-            id: background1
+            id: background2
             source: "calamares-1.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
                   anchors.centerIn: parent
         }
         Image {
-            id: icon
+            id: icon2
             source: "images/logo.png"
             fillMode: Image.PreserveAspectFit
             anchors.right: parent.right
@@ -100,7 +100,7 @@ Presentation
             anchors.bottomMargin: 10
         }
         Text {
-            id: title
+            id: title2
             font.pointSize: 16
             anchors.top: parent.top
             anchors.left: parent.left
@@ -113,7 +113,7 @@ Presentation
         }
 
         Text {
-            id: description
+            id: description2
             font.pointSize: 14
             anchors.top: parent.top
             anchors.left: parent.left

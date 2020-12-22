@@ -46,6 +46,7 @@ Presentation
             fillMode: Image.PreserveAspectFit
 			      anchors.centerIn: parent
         }
+
         Image {
             id: icon1
             source: "images/logo.png"
@@ -55,6 +56,7 @@ Presentation
             anchors.rightMargin: 14
             anchors.bottomMargin: 10
         }
+
         Text {
             id: title1
             font.pointSize: 16
@@ -79,6 +81,7 @@ Presentation
             wrapMode: Text.WordWrap
             text: "<p>Thank you for choosing HefftorLinux. You've made the right choice!</p>"
         }
+
     }
 
     Slide {
@@ -90,6 +93,7 @@ Presentation
             fillMode: Image.PreserveAspectFit
                   anchors.centerIn: parent
         }
+
         Image {
             id: icon2
             source: "images/logo.png"
@@ -99,6 +103,7 @@ Presentation
             anchors.rightMargin: 14
             anchors.bottomMargin: 10
         }
+
         Text {
             id: title2
             font.pointSize: 16
@@ -123,6 +128,7 @@ Presentation
             wrapMode: Text.WordWrap
             text: "<p>Installing on a NVME is supported only with ext4 file system</p>"
         }
+
     }
 
 

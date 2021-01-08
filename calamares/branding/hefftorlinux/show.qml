@@ -61,6 +61,18 @@ Presentation
 
     }
 
+    Slide {
+
+        Image {
+            id: background3
+            source: "calamares-3.png"
+            width: 1000; height: 625
+            fillMode: Image.PreserveAspectFit
+                  anchors.centerIn: parent
+        }
+
+    }
+
 
     function onActivate() {
           console.log("QML Component (default slideshow) activated");

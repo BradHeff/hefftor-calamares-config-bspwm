@@ -1,0 +1,26 @@
+- name: "Prefered Applications"
+  description: "Brads prefered applications"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-zen
+    - gimp
+    - gimp-plugin-gmic
+    - inkscape
+    - code
+    - virtualbox
+    - virtualbox-host-dkms
+    - linux-headers
+    - filezilla
+    - obs-studio
+    - spotify
+    - wps-office
+    - wps-office-mime
+    - ttf-wps-fonts
+    - timeshift
+    - discord
+    - remmina
+    - skypeforlinux-stable-bin
+    - telegram-desktop
+    - zoom

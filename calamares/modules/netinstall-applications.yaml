@@ -30,13 +30,6 @@
     - nemo-fileroller
     - pcmanfm
     - ranger
-- name: "Fonts"
-  description: "Fonts"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - terminus-font
 - name: "Git"
   description: "Git"
   critical: false
@@ -64,13 +57,6 @@
     - nitrogen
     - nomacs
     - pinta
-- name: "Fun"
-  description: "Fun"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-meta-fun
 - name: "Password Manager"
   description: "Password manager"
   critical: false

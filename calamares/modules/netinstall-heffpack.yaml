@@ -1,4 +1,4 @@
-- name: "Developers Choice"
+- name: "Featured"
   description: "Developers choice of applications"
   critical: false
   hidden: false

@@ -1,17 +1,17 @@
-- name: "Prefered Applications"
-  description: "Brads prefered applications"
+- name: "Developers Choice"
+  description: "Developers choice of applications"
   critical: false
   hidden: false
   selected: false
   packages:
     - linux-zen
+    - linux-zen-headers
     - gimp
     - gimp-plugin-gmic
     - inkscape
     - code
     - virtualbox
     - virtualbox-host-dkms
-    - linux-headers
     - filezilla
     - obs-studio
     - spotify

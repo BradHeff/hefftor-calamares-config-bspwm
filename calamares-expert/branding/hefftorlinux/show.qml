@@ -89,7 +89,7 @@ Presentation
 
         Image {
             id: background5
-            source: "calamares-5.png"
+            source: "calamares-5.jpg"
             width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
                   anchors.centerIn: parent

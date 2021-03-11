@@ -5,6 +5,7 @@
   selected: false
   packages:
     - linux
+    - linux-headers
 - name: "Linux-lts kernel without any nvidia"
   description: "Installs only the linux-lts kernel"
   critical: false
@@ -12,6 +13,7 @@
   selected: false
   packages:
     - linux-lts
+    - linux-lts-headers
 - name: "Linux-hardened kernel without any nvidia"
   description: "Installs only the linux-hardened kernel"
   critical: false
@@ -26,6 +28,7 @@
   selected: false
   packages:
     - linux-zen
+    - linux-zen-headers
 - name: "Nvidia with linux kernel"
   description: "Installs nvidia and linux kernel - check Arch wiki nvidia"
   critical: false
@@ -33,6 +36,7 @@
   selected: false
   packages:
     - linux
+    - linux-headers
     - nvidia
     - nvidia-settings
     - nvidia-utils
@@ -43,7 +47,19 @@
   selected: false
   packages:
     - linux-lts
+    - linux-lts-headers
     - nvidia-lts
+    - nvidia-settings
+    - nvidia-utils
+- name: "Nvidia with Linux-zen kernel"
+  description: "Installs nvidia and linux-zen kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-zen
+    - linux-zen-headers
+    - nvidia
     - nvidia-settings
     - nvidia-utils
 - name: "Cuda toolkit"

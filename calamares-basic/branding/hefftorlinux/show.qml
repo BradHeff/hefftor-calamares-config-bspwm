@@ -41,7 +41,7 @@ Presentation
 
         Image {
             id: background1
-            source: "calamares-1.png"
+            source: "calamares-1.jpg"
             width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
 			      anchors.centerIn: parent
@@ -53,7 +53,7 @@ Presentation
 
         Image {
             id: background2
-            source: "calamares-2.png"
+            source: "calamares-2.jpg"
             width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
                   anchors.centerIn: parent
@@ -65,7 +65,7 @@ Presentation
 
         Image {
             id: background3
-            source: "calamares-3.png"
+            source: "calamares-3.jpg"
             width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
                   anchors.centerIn: parent
@@ -77,7 +77,7 @@ Presentation
 
         Image {
             id: background4
-            source: "calamares-4.png"
+            source: "calamares-4.jpg"
             width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
                   anchors.centerIn: parent
@@ -99,7 +99,7 @@ Presentation
     Slide {
 
         Image {
-            id: background5
+            id: background6
             source: "calamares-6.jpg"
             width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
@@ -110,7 +110,7 @@ Presentation
     Slide {
 
         Image {
-            id: background5
+            id: background7
             source: "calamares-7.jpg"
             width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
@@ -121,7 +121,7 @@ Presentation
     Slide {
 
         Image {
-            id: background5
+            id: background8
             source: "calamares-8.jpg"
             width: 1000; height: 625
             fillMode: Image.PreserveAspectFit

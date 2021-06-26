@@ -96,6 +96,39 @@ Presentation
         }
 
     }
+    Slide {
+
+        Image {
+            id: background5
+            source: "calamares-6.jpg"
+            width: 1000; height: 625
+            fillMode: Image.PreserveAspectFit
+                  anchors.centerIn: parent
+        }
+
+    }
+    Slide {
+
+        Image {
+            id: background5
+            source: "calamares-7.jpg"
+            width: 1000; height: 625
+            fillMode: Image.PreserveAspectFit
+                  anchors.centerIn: parent
+        }
+
+    }
+    Slide {
+
+        Image {
+            id: background5
+            source: "calamares-8.jpg"
+            width: 1000; height: 625
+            fillMode: Image.PreserveAspectFit
+                  anchors.centerIn: parent
+        }
+
+    }
 
 
     function onActivate() {
